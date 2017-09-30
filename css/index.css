@@ -1,0 +1,96 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,tr,th,img,div,dl,dt,dd,input,select,textarea,button{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;vertical-align:top;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;border:none;}
+a{text-decoration:none;}
+table{border-collapse:collapse;}
+button{border:none;outline:none;}
+textarea{margin:0;padding:0;resize:none;overflow:auto;outline:none;}
+body{
+    width:1000px;
+    margin:0 auto;
+    font-size:22px;
+    color:#FFA8B8;
+    font-family:'华康少女繁简完全版';
+}
+@font-face{
+    font-family:'华康少女繁简完全版';
+    src:url('../华康少女繁简完全版.ttf');
+}
+#outline1{
+    height:50px;
+    background-color: #333;
+    border-bottom:1px solid #fff;
+}
+#outline1 span{
+    margin-left:360px;
+    line-height:50px;
+    font-size:24px;
+}
+#outline1 select{
+    background-color:#333;
+    color:#ffa8b8;
+    border:none;
+    font-size:18px;
+    font-family:'华康少女繁简完全版';
+    margin-left:20px;
+    cursor:pointer;
+}
+#outline1 button{
+   background-color:#333;
+   color:#ffa8b8;
+   font-family:'华康少女繁简完全版';
+   font-size:18px;
+   margin-left:20px;
+   cursor:pointer;
+}
+#outline2{
+    height:650px;
+}
+#orip{
+    width:219px;
+    padding-left:30px;
+    height:650px;
+    background-color:#999;
+    float:left;
+    border-right:1px solid #fff;
+}
+#orip p{
+    margin-top:30px;
+}
+#orip img{
+    width:200px;
+    height:200px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+#orip #btn2{
+    background-color:#999;
+    color:#ffa8b8;
+    font-family:'华康少女繁简完全版';
+    font-size:24px;
+    cursor:pointer;
+    margin-top:30px;
+}
+#games{
+    width:750px;
+    height:650px;
+    background-color:#ccc;
+    float:right;
+}
+#games ul{
+    width:600px;
+    height:600px;
+    margin:20px auto;
+}
+#games ul li{
+    float:left;
+}
+#games ul li img{
+    cursor:pointer;
+    width:200px;
+    height:200px;
+    border:1px solid #fff;
+}
