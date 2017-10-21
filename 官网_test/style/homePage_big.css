@@ -1,0 +1,329 @@
+@charset "utf-8";
+
+/* 重置样式 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"方圆卡通";
+    src:url("../typeface/方圆卡通.ttf");
+    font-family: "云游体";
+    src: url("../typeface/云游体.ttf");
+}
+body {
+     font-family:"方圆卡通";
+    overflow: hidden;
+    color: #fff;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+#header,
+#outline,
+{
+    width: 100%;
+}
+
+
+/* header部分 */
+
+#header {
+    height: 45px;
+    background: #111;
+    position: relative;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 40px;
+    display: inline-block;
+    background: url("../images/homePage_img/logo.png") no-repeat;
+    background-size: 43px 43px;
+    width: 43px;
+    height: 43px;
+}
+
+.headerUl {
+    display: inline-block;
+    height: 45px;
+    margin: 0 40px;
+}
+
+.headerUl li {
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    padding: 0 20px;
+}
+p{
+     font-family:"方圆卡通";
+
+}
+.headerUl li a {
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.headerUl li:first-of-type a {
+    color: #00caab;
+}
+
+.headerUl li:hover a {
+    color: #00caab;
+}
+
+.menu {
+    display: none;
+}
+
+
+/* load部分 */
+
+#outline {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+#load {
+    width: 100%;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-size: 90px;
+    cursor: pointer;
+    font-family: "云游体";
+}
+
+
+/* pic部分 */
+
+.pic {
+    background: #434343;
+    position: relative;
+}
+
+.clear {
+    position: relative;
+    z-index: 100;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.biger_select {
+    width: 65%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.biger_select img {
+    height: 100%;
+}
+
+.smaller_select {
+    width: 35%;
+    height: 80%;
+    padding: 20px;
+}
+
+.smaller_select h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.smaller_select p {
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.shade1 {
+    width: 120%;
+    height: 120%;
+    background: #ebfaeb;
+    opacity: 0.3;
+    position: absolute;
+    left: -70%;
+    top: -70%;
+    transform: rotateZ(45deg) rotateX(60deg);
+    z-index: 2;
+}
+
+.shade2 {
+    width: 120%;
+    height: 120%;
+    background: #b89253;
+    opacity: 0.3;
+    position: absolute;
+    left: -70%;
+    top: -70%;
+    transform: rotateZ(45deg) rotateY(45deg);
+    z-index: 2;
+}
+
+.shade3 {
+    z-index: 2;
+    background: #b89253;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    opacity: 0.3;
+    transform: rotateZ(-45deg);
+}
+
+.shade3 {
+    z-index: 2;
+    background: #ebfaeb;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 40%;
+    top: 40%;
+    opacity: 0.3;
+    transform: rotateZ(-45deg);
+}
+
+
+/* footer部分 */
+
+#footer {
+    background: #2e2b2b;
+}
+
+.contact {
+    width: 95%;
+    height: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.contact_cb {
+    width: 35%;
+    height: 95%;
+    padding: 20px;
+}
+
+.contact_tx {
+    width: 65%;
+    height: 95%;
+    padding: 30px 0;
+}
+
+.contact_cb h2 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.contact_cb p {
+    text-align: left;
+    margin-top: 15px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #00caab;
+}
+
+.con_in {
+    width: 48%;
+    float: left;
+    margin-right: 5px;
+    height: 40px;
+    background: #ccc;
+    line-height: 40px;
+    margin-top: 20px;
+    color: #222;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.con_in input {
+    width: 60%;
+    outline: none;
+    background: #ccc;
+    border: none;
+    height: 35px;
+}
+
+.con_su {
+    width: 80%;
+    margin: auto;
+    background: #ccc;
+    height: 40px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.con_su button {
+    width: 200px;
+    height: 100%;
+    font-size: 22px;
+    background: #ccc;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.fLink {
+    width: 100%;
+    height: 30%;
+    background: #222;
+    padding: 20px 0;
+}
+
+.fLink p {
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.fLink p a {
+    color: #fff;
+}
+
+.xb {
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    height: 14px;
+    line-height: 14px;
+    text-align: right;
+    width: 90%;
+}

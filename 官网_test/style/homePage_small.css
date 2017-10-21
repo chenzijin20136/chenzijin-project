@@ -1,0 +1,164 @@
+.logo {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.headerUl {
+    position: absolute;
+    top: 45px;
+    display: block;
+    background: #222831;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.headerUl li {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 40px;
+}
+
+.menu {
+    display: block;
+    height: 35px;
+    width: 35px;
+    background: url("../images/homePage_img/menu1.png") no-repeat;
+    background-size: 35px 35px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+#load {
+    font-size: 35px;
+}
+
+.clear {
+    padding: 20px 5px;
+    width: 98%;
+}
+
+.biger_select {
+    width: 100%;
+    height: 60%;
+}
+
+.biger_select img {
+    height: 100%;
+}
+
+.smaller_select {
+    width: 100%;
+    height: 40%;
+    padding: 5px;
+}
+
+.smaller_select h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.smaller_select p {
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contact {
+    width: 98%;
+}
+
+.contact_cb {
+    width: 100%;
+    height: 35%;
+    padding: 10px;
+}
+
+.contact_tx {
+    width: 100%;
+    height: 65%;
+    padding: 30px 0;
+}
+
+.contact_cb h2 {
+    font-size: 20px;
+}
+
+.contact_cb p {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.con_in {
+    width: 48%;
+    float: left;
+    margin-right: 3px;
+    height: 35px;
+    background: #ccc;
+    line-height: 35px;
+    margin-top: 20px;
+    color: #222;
+    padding-left: 2px;
+    font-size: 12px;
+}
+
+.con_in input {
+    width: 45%;
+    outline: none;
+    background: #ccc;
+    border: none;
+    height: 32px;
+}
+
+.con_su {
+    width: 80%;
+    margin: auto;
+    background: #ccc;
+    height: 40px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.con_su button {
+    width: 200px;
+    height: 100%;
+    font-size: 18px;
+    background: #ccc;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.fLink {
+    width: 100%;
+    height: 30%;
+    background: #222;
+    padding: 20px 0;
+}
+
+.fLink p {
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.fLink p a {
+    color: #fff;
+}
+
+.xb {
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    height: 14px;
+    line-height: 14px;
+    text-align: right;
+    width: 90%;
+}
