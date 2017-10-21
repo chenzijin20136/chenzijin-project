@@ -1,0 +1,22 @@
+## 什么是cookie
+### 页面用来保存信息
+ - 比如：自动登陆，记住用户名
+### cookie的特性
+ - 同一个网站中所有页面共享一套cookie
+ - 数量，大小有限
+ - 过期时间由JS控制，有保质期
+### JS中使用cookie
+ - document.cookie
+## cookie的使用
+### 设置cookie
+ - 格式：名字=值
+ - 不会覆盖（可以使用多个document.cookie=""进行赋值，=相当于添加，而不是赋值）
+ - 过期时间：指定过期时间：document.cookie="名字=值;expires="+oDate![](http://i.imgur.com/ud5vEXB.png)**每一条cookie都可以有自己独立的过期日期**
+ - 封装函数![](http://i.imgur.com/qolVD2o.png)
+### 读取cookie
+ - 字符串分割![](http://i.imgur.com/7g7F5cz.png)
+### 删除cookie
+ - 已经过期![](http://i.imgur.com/NrH2Ncy.png)
+### 例子
+ - 用cookie记录上一次Div的位置，鼠标抬起-记录位置，window.onload-读取位置，鼠标拖拽![](http://i.imgur.com/2NR5viJ.png)![](http://i.imgur.com/aIatTHT.png)
+ - 用cookie记录上次登陆的用户名，提交时-记录用户名，window.onload-读取用户名![](http://i.imgur.com/fY059ag.png)![](http://i.imgur.com/jpMK07j.png)![](http://i.imgur.com/8mcD52O.png)![](http://i.imgur.com/pUlHK32.png)

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+<script src="http://cdn.bootcss.com/blueimp-md5/1.1.0/js/md5.min.js"></script>
+    <title>微专业WEB前端开发作业</title>
+</head>
+<body>
+    <div id="shadow"></div>
+    <div id="logIn">
+        <p>登录网易云课堂<img src="imgs/x.png" class="off"></p>
+        <input type="text" name="user" value="账号" class="input_1">
+        <input type="text" name="password" value="密码" class="input_1">
+        <input type="button" name="btn" value="登 录" class="input_2">
+    </div>
+    <div class="top" id="top">
+        <div class="top_content">
+            <p>网易云课堂微专业，帮助你掌握专业技能，令你求职或加薪多一份独特优势！&nbsp;
+            <a href="#">立即查看></a>
+            <span><a href="javascript:void(0);"onclick="noHint()"><img src="imgs/x.png"></a> 不再提醒</span>
+            </p>
+        </div>
+    </div>
+    <div class="head">
+        <div class="head_content">
+            <p>
+                <span class="hc_span1">EDU</span>
+                <img src="imgs/xian.png">
+                <span>网易教育产品部</span>
+                <button class="yet-follow">+ 关注</button>
+                <span class="hc_span2">粉丝 45</span>
+                <span class="hc_span3">√ 已关注</span>
+            </p>
+            <ul>
+                <li><a href="http://open.163.com/">网易公开课</a></li>
+                <li><a href="http://study.163.com/">云课堂</a></li>
+                <li><a href="http://www.icourse163.org/">中国大学MOOC</a></li>
+                <li style="margin-left: 22px;"><img src="imgs/search.png"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <a href="http://open.163.com/"><img src="imgs/banner1.jpg"></a>
+        <a href="http://study.163.com/"><img src="imgs/banner2.jpg" ></a>
+        <a href="http://www.icourse163.org/"><img src="imgs/banner3.jpg"></a>
+        <ul class="bannerUl">
+            <li></li>
+            <li></li>
+            <li style="background: #000;"></li>
+        </ul>
+        <script type="text/javascript" src="js/jq.js"></script>
+    </div>
+    <div class="list">
+        <div class="list_1">
+            <div style="margin-left: 0;">
+                <img src="imgs/list_11.png">
+                <p><span>网易公开课</span>
+                推出国内外名校公开课，涉及广泛的学科，名校老师认真讲解深度剖析，网易视频公开课频道搭建起强有力的网络视频教学平台。<a href="http://open.163.com/">了解更多></a></p>
+            </div>
+            <div>
+                <img src="imgs/list_12.png">
+                <p><span>云课堂</span>
+                网易旗下大型在线学习平台，该平台面向学习者提供海量免费、优质课程,创新的个性化学习体验，自由开放的交流互动环境。<a href="http://study.163.com/">了解更多></a></p>
+            </div>
+            <div>
+                <img src="imgs/list_13.png">
+                <p><span>中国大学MOOC</span>
+                是爱课程网携手云课堂打造的在线学习平台，每一个有提升愿望的人,都可以在这里学习中国最好的大学课程，学完还能获得认证证书。<a href="http://www.icourse163.org/">了解更多></a></p>
+            </div>
+        </div>
+        <div class="list_2">
+            <img src="imgs/list_21.png" style="margin-left: 0;">
+            <img src="imgs/list_21.png">
+            <img src="imgs/list_21.png">
+            <img src="imgs/list_21.png">
+            <img src="imgs/list_21.png">
+        </div>
+    </div>
+    <div class="middle">
+        <div class="m_left">
+            <span class="active1 m_left_span">产品设计</span>
+            <span class="active2 m_left_span">编程语言</span>
+                <ul class="tap">
+                <!--    <li style="margin-left: 0;">
+                        <img src="imgs/1.png" class="list_img1">
+                        <p class="p1">混音全揭秘 舞曲实战篇 揭秘音乐揭秘...</p>
+                        <p class="p2">音频帮</p>
+                        <p class="p3"><img src="imgs/people.png">&nbsp;510</p>
+                        <p class="p4">￥800.00</p>
+                        <div class="fuceng">
+                            <img src="imgs/1.png" class="list_img3">
+                            <div class="fuceng_r">
+                                <a href="http://study.163.com/course/introduction/967019.htm"><span>手绘画系列教程</span></a>
+                                <p class="p5"><img src="imgs/people.png">&nbsp;51人在学</p>
+                                <p>发布者：机核网<br>分类:手绘设计</p>
+                            </div>
+                            <div class="fuceng_b">
+                                <p>混音全揭秘 舞曲实战篇 揭秘音乐揭秘...混音全揭秘 舞曲实战篇 揭秘音乐揭秘...混音全揭秘 舞曲实战篇 揭秘音乐揭秘...</p>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+                <ul class="yema">
+                    <li><</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>></li>
+                </ul>
+        </div>
+        <div class="m_right">
+            <div class="m_right_t">
+                <span>&nbsp;&nbsp;&nbsp;机构介绍</span>
+                <p>观看下面的视频来了解吧：
+                <a href="javascript:void(0);"onclick="onVideo()"><img src="imgs/video.png"></a>
+                </p>
+            </div>
+            <div class="m_right_b">
+                <span class="m_right_b_span">&nbsp;&nbsp;&nbsp;最热排行</span>
+                <ul class="ranking">
+                    <!-- <li>
+                        <img src="imgs/x.png" class="photo">
+                        <p><span>揭秘音乐舞者的秘密...</span><br>
+                        <img src="imgs/people.png" class="list_img2">&nbsp;21457
+                        </p>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom_content">
+            <div class="b_box1">
+                <span class="hc_span1">EDU</span>
+                <img src="imgs/xian.png" class="xian">
+                <span class="b_span">网易教育产品部</span>
+                <p>©2014 icourse163.org 浙ICP备08114786号-1<br>
+                icourses.cn 京ICP备12020869号-2 京公网安备110102000459-2</p>
+            </div>
+            <div class="b_box2">
+                友情链接：<br>
+                <a href="http://open.163.com/">网易公开课</a><br>
+                <a href="http://study.163.com/">网易云课堂</a><br>
+                <a href="http://www.icourse163.org/">中国大学MOOC</a>
+            </div>
+            <div class="b_box3">
+                我们：<br>
+                <a href="#">关于</a><br>
+                <a href="#">联系</a><br>
+                <a href="#">关注</a>&nbsp;&nbsp;<img src="imgs/xinlang.png">
+            </div>
+            <div>
+                更多：<br>
+                <a href="#">常见问题</a><br>
+                <a href="#">意见反馈</a><br><br>
+            </div>
+        </div>
+    </div>
+    <div id="video" >
+        <p>欢迎观看视频<a href="javascript:void(0);"onclick="offVideo()"><img src="imgs/x.png"></a></p>
+        <video src="http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4" controls="controls" id="shiping">
+        </video>
+    </div>
+</body>
+</html>
